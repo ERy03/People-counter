@@ -1,37 +1,75 @@
 body {
-    background-image: url("https://images.unsplash.com/photo-1523268266866-5dbd36907f00?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80");
-    background-size: cover;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: bold;
-    text-align: center;
+  background-image: url("https://images.unsplash.com/photo-1523268266866-5dbd36907f00?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80");
+  background-size: cover;
+  background-position: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  width: 40%;
 }
 
 h1 {
-    margin-top: 10px;
-    margin-bottom: 10px;
+  margin-bottom: 10px;
+  font-size: 80px;
+  color: white;
+  text-shadow: 1px 3px 16px rgba(0, 0, 0, 0.48);
 }
 
 h2 {
-    font-size: 50px;
-    margin-top: 0;
-    margin-bottom: 20px;
+  font-size: 50px;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-shadow: 1px 3px 16px rgba(0, 0, 0, 0.48);
+}
+
+p {
+  color: white;
+  font-size: 32px;
+  text-shadow: 1px 3px 16px rgba(0, 0, 0, 0.48);
+  overflow-wrap: break-word;
 }
 
 button {
-    border: none;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color: white;
-    font-weight: bold;
-    width: 200px;
-    margin-bottom: 5px;
-    border-radius: 5px;
+  border: none;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  color: white;
+  font-weight: bold;
+  width: 200px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  box-shadow: 1px 3px 16px rgba(0, 0, 0, 0.48);
+  transition: 0.3s;
+  font-size: 16px;
 }
 
 #increment-btn {
-    background: darkred;
+  background: darkred;
+}
+
+#increment-btn:hover {
+  background: darkred;
+  opacity: 0.8;
+  cursor: pointer;
 }
 
 #save-btn {
-    background: darkgreen;
+  background: darkgreen;
+}
+
+#save-btn:hover {
+  background: darkgreen;
+  opacity: 0.8;
+  cursor: pointer;
 }
