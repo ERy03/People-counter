@@ -5,7 +5,7 @@ In index.html file create a `<script>` tag that allows you to write JS
 
 ``` html
 <script>
-document.getElementById("count-el").innerText = 5
+  document.getElementById("count-el").innerText = 5
 </script>
 ```
 
