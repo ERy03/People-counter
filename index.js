@@ -9,11 +9,17 @@
 // listen for a click on the save button
 
 let count = 0
+let countEl = document.getElementById("count-el")
+let saveEl = document.getElementById("save-el")
+
 function increment() {
   count += 1
-  document.getElementById("count-el").innerText = count;
+  countEl.textContent = count
 }
 
 function save() {
-  console.log(count);
+  let savedCount = count + " - "
+  saveEl.textContent += savedCount
+  countEl.textContent = 0
+  count = 0
 }
