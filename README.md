@@ -1,4 +1,4 @@
-# JS
+# JS Practice 1
 
 <img src="https://user-images.githubusercontent.com/76512208/146969411-0e9e8623-37aa-4940-b065-1761baa690d2.png" alt="app preview" width="500px">
 
